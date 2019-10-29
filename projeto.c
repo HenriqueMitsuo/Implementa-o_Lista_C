@@ -55,7 +55,7 @@ A* cadastrarInicio(A* ponteiro) {
 
       aluno->proximo = NULL;
 
-      printf("\n %p -- %p -- %p -- %p", &aluno, &ponteiro, ponteiro->proximo, aluno->proximo);
+      printf("\n %p -- %p -- %p -- %p", aluno, ponteiro, ponteiro->proximo, aluno->proximo);
    }
    else {
 
