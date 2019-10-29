@@ -1,6 +1,6 @@
 /**
 *
-*  IMPLEMENTAÇÃO DE ALGORITMO LISTA
+*  IMPLEMENTAÇÃO DE ALGORITMO LISTA ENCADEADA
 *
 **/
 #include <stdio.h>
@@ -10,7 +10,12 @@
 
 int main () {
 
+   /// DECLARANDO PONTEIRO DO TIPO ALUNO
+   A *cabeca;
+   /// INICIALIZANDO A VARIAVEL PARA TER CERTEZA DE QUE NÃO HA LIXO DE MEMORIA
+   cabeca = NULL;
 
+   menu(cabeca);
 
-   menu();
+   return 0;
 }
